@@ -4,7 +4,7 @@ A modern, responsive **SaaS landing page** built using **HTML + CSS**.
 This project focuses on clean UI design, layout structure, section organization, and overall frontend presentation.  
 Built as part of my web development portfolio.
 
-🔗 **Live Demo:** https://monu7852.github.io/saas-landing/
+🔗 **Live Demo:** https://monu7852.github.io/saas-landing-page/
 
 ---
 
