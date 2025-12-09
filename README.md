@@ -38,19 +38,6 @@ Built as part of my web development portfolio.
 │── style.css
 └── README.md
 
-yaml
-Copy code
-
-No local images needed — all images load from CDN links.
-
----
-
-## 📸 Preview
-
-(Add screenshots here if you want, optional)
-
----
-
 ## ✨ What I Learned
 
 - Designing modern SaaS UI layouts  
