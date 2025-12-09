@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>FlowStack – SaaS Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <div class="logo-mark">FS</div>
+        <span class="logo-text">FlowStack</span>
+      </div>
+
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#" class="link">Sign in</a>
+        <a href="#pricing" class="btn small primary">Get started</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <p class="eyebrow">SAAS PLATFORM · DEMO UI</p>
+        <h1>Manage your work in one clean dashboard.</h1>
+        <p class="hero-text">
+          FlowStack helps small teams track tasks, collaborate in real time and ship projects faster — all in a simple, modern interface.
+        </p>
+
+        <form class="hero-form" onsubmit="return false;">
+          <input type="email" placeholder="Enter your email" required>
+          <button class="btn primary">Start free trial</button>
+        </form>
+        <p class="hero-note">No credit card required · Demo UI built by Monu Bairwa</p>
+      </div>
+
+      <div class="hero-right">
+        <!-- 🔁 Replace this dashboard image with your own screenshot -->
+        <img
+          src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=900"
+          alt="App dashboard preview"
+          class="hero-img"
+        >
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGOS -->
+  <section class="section logos">
+    <div class="container logos-inner">
+      <p>Trusted by small product teams</p>
+      <div class="logo-row">
+        <!-- 🔁 Replace logo images if you want -->
+        <img src="https://dummyimage.com/90x28/111827/ffffff&text=Nova" alt="Logo 1">
+        <img src="https://dummyimage.com/90x28/111827/ffffff&text=Shift" alt="Logo 2">
+        <img src="https://dummyimage.com/90x28/111827/ffffff&text=Orbit" alt="Logo 3">
+        <img src="https://dummyimage.com/90x28/111827/ffffff&text=Pulse" alt="Logo 4">
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>All your work, in one place.</h2>
+        <p>FlowStack keeps your tasks, notes and timelines organised so your team always knows what to do next.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon">✓</div>
+          <h3>Task Management</h3>
+          <p>Create, assign and track tasks with clean Kanban-style boards.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>Team Collaboration</h3>
+          <p>Comment, mention teammates and keep discussions in one thread.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Project Analytics</h3>
+          <p>See progress, deadlines and workload across your projects.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">☁</div>
+          <h3>Cloud Sync</h3>
+          <p>Access your workspace from any device, anytime.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="section section-alt">
+    <div class="container stats-inner">
+      <div>
+        <h2>Built for small teams that move fast.</h2>
+        <p class="stats-text">
+          This page is a practice SaaS UI — focused on clean layout, typography and reusable components for your portfolio.
+        </p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="stat-value">+120</span>
+          <span class="stat-label">Tasks tracked</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">3</span>
+          <span class="stat-label">Live projects</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">2</span>
+          <span class="stat-label">Demo clients</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <h2>Simple pricing for growing teams.</h2>
+        <p>Choose one plan. You can mention this section as “pricing layout” in your resume.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <article class="price-card">
+          <h3>Starter</h3>
+          <p class="price-tag">₹0<span>/month</span></p>
+          <p class="price-note">For solo use and experiments.</p>
+          <ul class="price-list">
+            <li>Up to 2 projects</li>
+            <li>Basic task board</li>
+            <li>Email support</li>
+          </ul>
+          <button class="btn full ghost">Current plan</button>
+        </article>
+
+        <article class="price-card price-card-highlight">
+          <div class="badge">Most popular</div>
+          <h3>Team</h3>
+          <p class="price-tag">₹499<span>/month</span></p>
+          <p class="price-note">For small teams shipping fast.</p>
+          <ul class="price-list">
+            <li>Unlimited projects</li>
+            <li>Team collaboration</li>
+            <li>Priority support</li>
+          </ul>
+          <button class="btn full primary">Start free trial</button>
+        </article>
+
+        <article class="price-card">
+          <h3>Pro</h3>
+          <p class="price-tag">₹999<span>/month</span></p>
+          <p class="price-note">For agencies and advanced teams.</p>
+          <ul class="price-list">
+            <li>Everything in Team</li>
+            <li>Advanced analytics</li>
+            <li>Custom onboarding</li>
+          </ul>
+          <button class="btn full ghost">Talk to sales</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-alt" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2>Frequently asked questions</h2>
+        <p>You can convert this FAQ into interactive accordion later with JavaScript, if you want.</p>
+      </div>
+
+      <div class="faq-grid">
+        <article class="faq-item">
+          <h3>Is this a real SaaS product?</h3>
+          <p>No. This is a demo landing page built for my web development portfolio.</p>
+        </article>
+
+        <article class="faq-item">
+          <h3>What technologies are used?</h3>
+          <p>Pure HTML and CSS. No framework, no backend — just clean front-end UI.</p>
+        </article>
+
+        <article class="faq-item">
+          <h3>Can I connect this to a backend later?</h3>
+          <p>Yes, this layout is structured in sections so you can integrate real data later.</p>
+        </article>
+
+        <article class="faq-item">
+          <h3>Can I reuse this design?</h3>
+          <p>Yes, feel free to customise the content, colours and images.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta">
+    <div class="container cta-inner">
+      <div>
+        <h2>Ready to build with me?</h2>
+        <p>I'm open to internships and junior web development roles.</p>
+      </div>
+      <a href="mailto:monuvarma4813@gmail.com" class="btn primary">Contact Monu</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> FlowStack · Demo SaaS UI by Monu Bairwa</span>
+      <a href="https://monu7852.github.io/my_portfolio/" target="_blank">Back to portfolio</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
